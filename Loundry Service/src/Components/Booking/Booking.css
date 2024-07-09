@@ -1,0 +1,69 @@
+.campus {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.campus .gallery {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 40px;
+
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 30px 2px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.service-box .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icon i {
+    font-size: 30px;
+    color: #212EA0;
+}
+
+.service-box .no {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 34%;
+    top: 10%;
+}
+
+
+
+/* ----------media quear------- */
+
+@media(max-width:800px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+
+    .gallery img {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
